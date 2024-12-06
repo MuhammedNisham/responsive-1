@@ -5,9 +5,18 @@
 }
 body{
     .container{
+        padding: 0;
         max-width: 430px;
         min-height: 100vh;
         margin: auto;
-        border: 1px solid  red;
+        /* border: 1px solid  red; */
+
+        header#site-header{
+            nav.navbar{
+                max-width: 430px;
+                margin: auto;
+                height: 60px;
+            }
+        }
     }
 }
